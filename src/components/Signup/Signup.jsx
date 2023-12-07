@@ -49,8 +49,8 @@ function Signup() {
           onMouseOut={handleMouseOut}
           onChange={handleEmail}
           value={email}
-          // w-[21.25rem]
-          className="rounded-lg border w-[21.25rem] border-gray-300 shadow-sm text-base p-4 font-normal outline-none focus:ring focus:ring-gray-400 "
+          className={`rounded-lg border w-[21.25rem] border-gray-300 shadow-sm text-base p-4 font-normal outline-none focus:ring focus:ring-gray-400
+          ${!isValid && email.length > 0 ? "border-red-600" : ""}`}
         />
         {!isValid && email.length > 0 && (
           <p className="text-red-600 pt-1 font-medium text-l pl-2 ">
@@ -63,7 +63,6 @@ function Signup() {
       </div>
       <button
         type="submit"
-        // w-[21.25rem] h-14
         className={`w-[21.25rem] h-[59px] border rounded-lg bg-black text-white hover:bg-slate-900 hover:text-slate-500 ${
           !isValid ? "hover:cursor-not-allowed" : ""
         }`}
