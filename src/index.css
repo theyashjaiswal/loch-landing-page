@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  inset: 0;
+  padding: 0;
+}
+
+@layer utilities {
+  .custom-radial-gradient {
+    background-image: radial-gradient(
+      70.84% 96.84% at 4.27% 102.27%,
+      rgba(30, 137, 17, 0.899) 36.21%,
+      rgba(47, 21, 208, 0.9455) 76.58%,
+      rgba(0, 0, 0, 0.88) 105%
+    );
+  }
+}
