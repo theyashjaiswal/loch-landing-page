@@ -72,7 +72,7 @@ function Signup() {
       >
         Get Started
       </button>
-      <p className="text-gray-900 text-wrap py-18 px-0 rounded-bl-lg">
+      <p className="text-gray-900 text-wrap py-18 px-0 font-semibold rounded-bl-lg">
         You’ll receive an email with an invite link to join.
       </p>
     </div>
