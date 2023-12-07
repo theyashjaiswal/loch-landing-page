@@ -46,10 +46,10 @@ function Info() {
             alt="Example"
             className=" h-[32px] w-[32px] mb-4"
           />
-          <h4 className="text-gray-200 text-shadow-sm font-inter text-3xl font-medium leading-9 mb-2 w-[313px]">
+          <h4 className="text-white text-shadow-sm font-inter text-3xl font-medium leading-9 mb-2 w-[313px]">
             Get notified when a highly correlated whale makes a move
           </h4>
-          <p className="w-[322px] top-261 left-60 opacity-70 text-gray-200">
+          <p className="w-[322px] opacity-70 font-medium text-gray-200">
             Find out when a certain whale moves more than any preset amount
             on-chain or when a dormant whale you care about becomes active.
           </p>
@@ -105,7 +105,7 @@ function Info() {
           <h4 className="text-white text-right text-shadow-sm w-[305px] font-inter text-3xl font-medium leading-9 mb-2">
             Watch what the whales are doing
           </h4>
-          <p className="w-[305px] text-right opacity-70 text-gray-200">
+          <p className="w-[305px] text-right opacity-70 font-medium text-gray-200">
             All whales are not equal. Know exactly what the whales impacting
             YOUR portfolio are doing.
           </p>
@@ -114,7 +114,7 @@ function Info() {
 
       <div className="testimonial p-12 overflow-x-hidden">
         <div className="flex justify-end ">
-          <p className="text-gray-200 text-[1.5625rem]">Testimonials</p>
+          <p className="text-white text-[1.5625rem]">Testimonials</p>
         </div>
         <div className="border-b border-gray-300 border-opacity-50 pb-0.5rem pr-1.5rem "></div>
         <div className="flex flex-col mt-6 md:flex-row">
