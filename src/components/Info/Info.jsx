@@ -94,7 +94,7 @@ function Info() {
 
       <div className="flex flex-col items-between md:justify-between p-12 pt-2 md:flex-row">
         <img
-          className="order-2 md:order-1 w-[335px] rounded-[0.75rem] border-[0.09375rem] border-black"
+          className="order-2 md:order-1 w-[335px] rounded-[0.75rem]"
           src={CohortsImage}
           alt="Cohorts"
         />
