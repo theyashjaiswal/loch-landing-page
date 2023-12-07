@@ -39,17 +39,17 @@ function Info() {
 
   return (
     <div>
-      <div className="flex p-12 flex-col md:flex-row overflow-x-hidden">
-        <div className="Notification absoulte m-w-[20.125rem] w-[20.125rem] m-4 ">
+      <div className="flex p-[3.75rem] flex-col md:flex-row overflow-x-hidden gap-4">
+        <div className="Notification absoulte m-w-[20.125rem] w-[20.125rem]">
           <img
             src={BellImage}
             alt="Example"
-            className=" h-[32px] w-[32px] mb-4"
+            className="h-[32px] w-[32px] mb-4"
           />
           <h4 className="text-white text-shadow-sm font-inter text-3xl font-medium leading-9 mb-2 w-[313px]">
             Get notified when a highly correlated whale makes a move
           </h4>
-          <p className="w-[322px] opacity-70 font-medium text-gray-200">
+          <p className="w-[20.125rem] opacity-70 font-medium text-gray-200">
             Find out when a certain whale moves more than any preset amount
             on-chain or when a dormant whale you care about becomes active.
           </p>
@@ -92,7 +92,7 @@ function Info() {
         </div>
       </div>
 
-      <div className="flex flex-col items-between md:justify-between p-12 md:flex-row">
+      <div className="flex flex-col items-between md:justify-between p-[3.75rem] md:flex-row">
         <img
           className="order-2 md:order-1 w-[335px] rounded-[0.75rem]"
           src={CohortsImage}
@@ -105,14 +105,14 @@ function Info() {
           <h4 className="text-white text-right text-shadow-sm w-[305px] font-inter text-3xl font-medium leading-9 mb-2">
             Watch what the whales are doing
           </h4>
-          <p className="w-[305px] text-right opacity-70 font-medium text-gray-200">
+          <p className="w-[19.0625rem] text-right opacity-70 font-medium text-gray-200">
             All whales are not equal. Know exactly what the whales impacting
             YOUR portfolio are doing.
           </p>
         </div>
       </div>
 
-      <div className="testimonial p-12 overflow-x-hidden">
+      <div className="testimonial p-[3.75rem] overflow-x-hidden">
         <div className="flex justify-end ">
           <p className="text-white text-[1.5625rem]">Testimonials</p>
         </div>
@@ -136,7 +136,7 @@ function Info() {
                 disableOnInteraction: false,
               }}
               modules={[Autoplay]}
-              className="mySwiper ml-1 md:ml-[4rem]"
+              className="mySwiper md:ml-[4rem]"
               style={{
                 width: "100%",
                 height: "100%",
