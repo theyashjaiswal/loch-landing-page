@@ -17,11 +17,11 @@ export default function LandingPage() {
         >
           Sign up
         </button>
-        <div className="InfoSection md:w-3/5">
+        <div className="InfoSection md:w-1/2">
           <Info></Info>
         </div>
         <div
-          className="w-full md:fixed md:right-0 md:h-full md:w-2/5"
+          className="w-full md:fixed md:right-0 md:h-full md:w-1/2"
           ref={messagesEndRef}
         >
           <Signup></Signup>

@@ -33,7 +33,7 @@ function Signup() {
 
   return (
     <div className="h-[25em] md:h-full min-w-fit flex flex-col justify-center items-center bg-white gap-6">
-      <h1 className="mb-4 w-[326px] text-3xl font-extrabold text-gray-900 md:text-4xl text-left">
+      <h1 className="mb-4 w-[20.375rem] text-3xl font-extrabold text-gray-900 md:text-4xl text-left">
         <span className=" text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
           Sign up
         </span>{" "}
@@ -50,7 +50,7 @@ function Signup() {
           onChange={handleEmail}
           value={email}
           // w-[21.25rem]
-          className="rounded-lg border w-[340px] border-gray-300 shadow-sm text-base p-4 font-normal outline-none focus:ring focus:ring-gray-400 "
+          className="rounded-lg border w-[21.25rem] border-gray-300 shadow-sm text-base p-4 font-normal outline-none focus:ring focus:ring-gray-400 "
         />
         {!isValid && email.length > 0 && (
           <p className="text-red-600 pt-1 font-medium text-l pl-2 ">
@@ -64,7 +64,7 @@ function Signup() {
       <button
         type="submit"
         // w-[21.25rem] h-14
-        className={` w-[340px] h-[59px] border rounded-lg bg-black text-white hover:bg-slate-900 hover:text-slate-500 ${
+        className={`w-[21.25rem] h-[59px] border rounded-lg bg-black text-white hover:bg-slate-900 hover:text-slate-500 ${
           !isValid ? "hover:cursor-not-allowed" : ""
         }`}
         disabled={!isValid}
