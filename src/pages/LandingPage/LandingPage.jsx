@@ -13,7 +13,7 @@ export default function LandingPage() {
       <div className="flex flex-col md:flex-row min-h-full">
         <button
           onClick={scrollToBottom}
-          className="bg-white rounded-lg shadow-smitems-center  whitespace-nowrap text-sm font-medium ring-offset-background transition-colors hover:bg-black hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground hover:border-black h-10 px-4 py-2 absolute right-0 m-5 flex md:hidden"
+          className="bg-white rounded-lg shadow-sm items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors hover:bg-black hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground hover:border-black h-10 px-4 py-2 absolute right-0 m-5 flex md:hidden"
         >
           Sign up
         </button>
@@ -21,7 +21,7 @@ export default function LandingPage() {
           <Info></Info>
         </div>
         <div
-          className="w-full md:fixed md:right-0 md:h-full md:w-1/2"
+          className="signup w-full md:fixed md:right-0 md:h-full md:w-1/2"
           ref={messagesEndRef}
         >
           <Signup></Signup>

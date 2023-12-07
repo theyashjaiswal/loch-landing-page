@@ -39,7 +39,7 @@ function Info() {
 
   return (
     <div>
-      <div className="flex ml-10 mt-10 mb-10 flex-col md:flex-row overflow-x-hidden">
+      <div className="flex p-12 flex-col md:flex-row overflow-x-hidden">
         <div className="Notification absoulte m-w-[20.125rem] w-[20.125rem] m-4 ">
           <img
             src={BellImage}
@@ -92,13 +92,13 @@ function Info() {
         </div>
       </div>
 
-      <div className="flex flex-col items-between md:justify-between p-12 pt-2 md:flex-row">
+      <div className="flex flex-col items-between md:justify-between p-12 md:flex-row">
         <img
           className="order-2 md:order-1 w-[335px] rounded-[0.75rem]"
           src={CohortsImage}
           alt="Cohorts"
         />
-        <div className="order-1 md:order-2 self-end md:self-center absoulte min-w-[19.0625rem] w-[19.0625rem] mb-4 mr-4">
+        <div className="order-1 md:order-2 self-end md:self-center absoulte min-w-[19.0625rem] w-[19.0625rem] mb-4 mr-2">
           <div className="flex justify-end">
             <img className="h-[1.25rem] mb-4 " src={EyeImage} alt="Eye" />
           </div>

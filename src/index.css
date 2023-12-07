@@ -17,3 +17,12 @@
     );
   }
 }
+
+.swiper-slide:not(.swiper-slide-active) {
+  opacity: 0.9;
+}
+
+.signup {
+  box-shadow: -20px 0px 20px 20px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
