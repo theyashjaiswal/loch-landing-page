@@ -1,6 +1,6 @@
 # Loco-Signup-Landing-Page
 
-Deployment Link Link: [https://vercel.com/](https://loch-landing-page-one.vercel.app/)
+Deployment Link Link: [[https://vercel.com/](https://loch-landing-page-one.vercel.app/)](https://loch-landing-page-one.vercel.app/)
 
 - _Date Created_: 07 12 2023
 - _Last Modification Date_: 07 12 2023
