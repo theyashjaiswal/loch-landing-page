@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Signup() {
   const [email, setEmail] = useState("");
@@ -20,7 +20,7 @@ function Signup() {
   const handleEmail = (e) => {
     setEmail(e.target.value);
     const emailPattern =
-      /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     const isValidEmail = emailPattern.test(e.target.value);
     setIsValid(isValidEmail);
   };
@@ -32,7 +32,7 @@ function Signup() {
   };
 
   return (
-    <div className="h-[25em] md:h-full min-w-fit flex flex-col justify-center items-center bg-white gap-6">
+    <div className="md:p-8 md:h-full  h-full flex flex-col justify-center items-center bg-white gap-6">
       <h1 className="mb-4 w-[20.375rem] text-3xl font-extrabold text-gray-900 md:text-4xl text-left">
         <span className=" text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
           Sign up

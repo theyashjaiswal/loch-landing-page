@@ -33,20 +33,20 @@ function Info() {
       name: "Shiv S",
       designation: "Co-Founder Magik Labs",
       testimony:
-        "“Managing my own portfolio is helpful and well designed. What’s really interesting is watching the whales though. No one else has made whale tracking so simple.”",
+        "“Managing my own portfolio is helpful and well designed. Watching the whales make moves simpler.”",
     },
   ];
 
   return (
-    <div>
-      <div className="flex p-[3.75rem] flex-col md:flex-row overflow-x-hidden gap-4">
-        <div className="Notification absoulte m-w-[20.125rem] w-[20.125rem]">
+    <div className="h-full md:w-3/5 mx-auto">
+      <div className="flex flex-wrap p-8 mt-20 flex-col md:flex-row overflow-x-hidden justify-evenly">
+        <div className="Notification absoulte max-w-[20.125rem] w-full md:w-[20.125rem]">
           <img
             src={BellImage}
             alt="Example"
             className="h-[32px] w-[32px] mb-4"
           />
-          <h4 className="text-white text-shadow-sm font-inter text-3xl font-medium leading-9 mb-2 w-[313px]">
+          <h4 className="text-white text-shadow-sm font-inter text-3xl font-medium leading-9 mb-2 w-full md:w-[313px]">
             Get notified when a highly correlated whale makes a move
           </h4>
           <p className="w-[20.125rem] opacity-70 font-medium text-gray-200">
@@ -54,15 +54,10 @@ function Info() {
             on-chain or when a dormant whale you care about becomes active.
           </p>
         </div>
-        <div
-          className="flex flex-wrap  md:ml-[8rem]"
-          style={{
-            width: "407px",
-          }}
-        >
+        <div className="mt-8 w-[20.5rem] ">
           <Swiper
             slidesPerView={2}
-            spaceBetween={10}
+            spaceBetween={80}
             autoHeight={false}
             freeMode={true}
             grabCursor={true}
@@ -92,15 +87,15 @@ function Info() {
         </div>
       </div>
 
-      <div className="flex flex-col items-between md:justify-between p-[3.75rem] md:flex-row">
+      <div className="flex flex-wrap flex-col p-8 md:flex-row overflow-x-hidden justify-evenly">
         <img
-          className="order-2 md:order-1 w-[335px] rounded-[0.75rem]"
+          className="order-2 lg:order-2 max-w-[20.125rem]  rounded-[0.75rem]"
           src={CohortsImage}
           alt="Cohorts"
         />
-        <div className="order-1 md:order-2 self-end md:self-center absoulte min-w-[19.0625rem] w-[19.0625rem] mb-4 mr-2">
+        <div className="order-1 lg:order-1 mb-4 md:mt-8 absoulte max-w-[20.125rem]  w-full md:w-[20.125rem] flex  flex-col jusitify-right items-end">
           <div className="flex justify-end">
-            <img className="h-[1.25rem] mb-4 " src={EyeImage} alt="Eye" />
+            <img className="h-[1.25rem] mb-4" src={EyeImage} alt="Eye" />
           </div>
           <h4 className="text-white text-right text-shadow-sm w-[305px] font-inter text-3xl font-medium leading-9 mb-2">
             Watch what the whales are doing
@@ -112,14 +107,14 @@ function Info() {
         </div>
       </div>
 
-      <div className="testimonial p-[3.75rem] overflow-x-hidden">
-        <div className="flex justify-end ">
-          <p className="text-white text-[1.5625rem]">Testimonials</p>
+      <div className="flex flex-wrap p-8 mt-20 flex-col overflow-clip justify-evenly">
+        <div className="flex flex-wrap flex-col w-2 md:w-auto">
+          <p className="text-white text-[1.5625rem] text-right">Testimonials</p>
+          <div className="border-b border-gray-300 border-opacity-50 pb-0.5rem pr-1.5rem"></div>
         </div>
-        <div className="border-b border-gray-300 border-opacity-50 pb-0.5rem pr-1.5rem "></div>
-        <div className="flex flex-col mt-6 md:flex-row">
+        <div className="flex flex-col flex-wrap mt-6 md:flex-row w-6 md:w-20">
           <img
-            style={{ width: "60px" }}
+            style={{ width: "32px" }}
             src={LochLogo}
             alt="LochLogo"
             className="md:self-end order-2 md:order-1 mt-4 md:mt-0"
@@ -136,7 +131,7 @@ function Info() {
                 disableOnInteraction: false,
               }}
               modules={[Autoplay]}
-              className="mySwiper md:ml-[4rem]"
+              className="mySwiper ml-[0.5rem] md:ml-[2rem]"
               style={{
                 width: "100%",
                 height: "100%",
