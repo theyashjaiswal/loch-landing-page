@@ -32,7 +32,7 @@ function Signup() {
   };
 
   return (
-    <div className="md:p-8 md:h-full  h-full flex flex-col justify-center items-center bg-white gap-6">
+    <div className="md:p-8 mt-20 md:mt-0 md:h-full  h-full flex flex-col justify-center items-center bg-white gap-6">
       <h1 className="mb-4 w-[20.375rem] text-3xl font-extrabold text-gray-900 md:text-4xl text-left">
         <span className=" text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
           Sign up
