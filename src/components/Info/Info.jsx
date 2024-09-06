@@ -107,7 +107,7 @@ function Info() {
         </div>
       </div>
 
-      <div className="flex flex-wrap p-8 mt-20 flex-col overflow-clip justify-evenly">
+      <div className="flex flex-wrap p-8 pt-2 flex-col overflow-clip justify-evenly">
         <div className="flex flex-wrap flex-col w-2 md:w-auto">
           <p className="text-white text-[1.5625rem] text-right">Testimonials</p>
           <div className="border-b border-gray-300 border-opacity-50 pb-0.5rem pr-1.5rem"></div>
